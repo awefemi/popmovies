@@ -1,0 +1,91 @@
+/* CSS Document */
+
+
+@font-face {
+	font-family: 'helvetica';
+	src: url('../fonts/helvetica.eot');
+	src: url('../fonts/helvetica.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/helvetica.woff') format('woff'),
+		url('../fonts/helvetica.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body{	
+	font-family: 'helvetica', sans-serif;
+}
+
+.Nav-bg {
+  	background-color: #212121;
+  	font-size: 24px;
+ 	color:#fff;
+	font-weight: bold;
+    color: #fff;
+    padding: 14px 24px;
+	margin-bottom: -1px;
+}
+
+.Nav-bg .arrow-left{
+	font-size:30;
+	margin-right:10px;
+	color:#fff;
+}
+
+.Dots{
+  font-size: 32px;
+  color: #ffffff;
+  line-height: normal;
+  float:right;
+}
+
+
+ul.movieListing{
+	padding:0;
+	margin:0;
+	list-style:none;	
+    width: 100%;
+}
+
+ul.movieListing::after{
+	content:" ";
+	clear:both;
+	display:table;
+}
+
+ul.movieListing li img{
+	height:auto;
+	width:100%;
+	cursor:pointer;
+}
+
+h1.movie-title{
+	font-size:32px;
+ 	font-weight: 300;
+	color:#fff;
+	background-color: #009688;
+  	box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.5);
+	padding:21px 24px;
+}
+
+.movie-details{
+	padding:24px;	
+}
+
+.movie-details .movie-meta{
+	padding:0px 24px;
+	color: #747474;
+	font-size:24px;
+	margin-bottom:16px;
+}
+
+
+.movie-details .movie-meta .rating{
+	color:#000;
+	font-size:16px;
+}
+
+.movie-details p{
+	font-size: 12px;
+	color: #747474;
+	margin-top:24px;
+}
