@@ -1,0 +1,11 @@
+<div ng-controller="listController">
+    <ul class="movieListing row no-gutters" >
+            <li ng-repeat="movie in popularMovies" class="col-6">
+                <img src="http://image.tmdb.org/t/p/w185/{{movie.poster_path}}"  alt="{{movie.original_title}}" ng-click="openMovie(movie.id)" />
+            </li>
+            
+            <li ng-repeat="movie in topRatedMovies" class="col-6" >
+                <img src="http://image.tmdb.org/t/p/w185/{{movie.poster_path}}"  alt="{{movie.original_title}}" ng-click="openMovie(movie.id)" />
+            </li>   
+    </ul>
+</div>
